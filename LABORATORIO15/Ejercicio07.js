@@ -1,4 +1,4 @@
-const ul = document.getElementById('mi-ul');
-for (const li of ul.children) {
-  console.log(li.textContent);
+const lista = document.getElementById("miLista");
+for (const li of lista.children) {
+    console.log(li.textContent);
 }
